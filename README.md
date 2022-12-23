@@ -30,6 +30,12 @@ systemctl restart suid
 ```
 journalctl -u suid -f -o cat
 ```
+### Clear the database and restart the node 
+```
+systemctl stop suid
+rm -rf /var/sui/db/*
+systemctl restart suid
+```
 ### And we are checking the version that it coincided with the last one
 ```
 sui -V
