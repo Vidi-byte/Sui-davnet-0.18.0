@@ -1,4 +1,4 @@
-# Sui-davnet
+# Sui-devnet
 ### Stop the node and clear the database from the previous version if you installed it before 
 ```
 systemctl stop suid
